@@ -226,3 +226,70 @@ p{
     background-color: black;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nintendoLogo{
+    margin-right: auto;
+}
+.searchBar{
+    width: 500px;
+    position: relative;
+    left: -120px;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav-item:first-child{
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+.navButton{
+    background-color: #E4000F;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20pt;
+    position: relative;
+} 
+.navButton:hover{
+    background-color: #A6000B;
+}
+
+.shoppingCart{
+    height: 44px;
+    width: 50px;
+    padding-right: 5px;
+}
+.cartButton{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+.cartButton:hover{
+    color: black;
+}
+
