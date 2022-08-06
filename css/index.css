@@ -4,6 +4,11 @@ h1{
     font-size: 90pt; 
     line-height: 1.0;
 }
+h2{
+    font-family: museo sans, sans-serif;
+    font-weight: 500;
+    font-size: 32pt; 
+}
 
 p{
     font-family: museo sans, sans-serif;
@@ -75,4 +80,13 @@ p{
     width: 1200px;
     text-align: left;
 }
+.card{
+    border-style: none;
+}
+.card h2{
+    text-align: center;
+}
+.card img{
+    padding: 0;
 
+}
