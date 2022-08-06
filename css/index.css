@@ -1,0 +1,295 @@
+h1{
+    font-family: museo sans, sans-serif;
+    font-weight: 900;
+    font-size: 90pt; 
+    line-height: 1.0;
+}
+h2{
+    font-family: museo sans, sans-serif;
+    font-weight: 500;
+    font-size: 32pt; 
+}
+
+p{
+    font-family: museo sans, sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+.topCTA{
+    background-color: black;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+.topCTA h1{
+    color: white;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.topCTA p {
+    color: white;
+    padding-left: 100px;
+}
+
+.topCTA img{
+    float: right;
+    position: relative;
+    top: -350px;
+    left: 0px;
+    padding-right: 50px;
+    padding-left: 25px;
+}
+
+.topCTA button{
+    background-color: #E4000F;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20pt;
+    position: relative;
+    right: -100px;
+} 
+
+.topCTA button:hover{
+    background-color: #A6000B;
+}
+
+
+.gameRepresentation video{
+    position: relative;
+    top: -310px;
+}
+
+.gameRepresentation .container {
+    position: relative;
+    text-align: left;
+    font-family: museo sans, sans-serif;
+    font-weight: 900;
+    font-size: 90pt; 
+  }
+
+
+.gameRepresentation .container h1{
+    position: absolute;
+    padding-top: 20px;
+    top: -20px;
+    left:-100px;
+    z-index:1;
+    color: white;
+    width: 1200px;
+    text-align: left;
+}
+.card{
+    border-style: none;
+}
+.card h2{
+    text-align: center;
+}
+.card img{
+    padding: 0;
+
+}
+.featuresSection{
+    position: relative;
+    top: -320px;
+}
+.featuresSection img{
+    width: 100%;
+    position: relative;
+}
+
+.featuresSection h1{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    z-index:1;
+    color: white;
+    width: 1200px;
+    text-align: right;
+}
+
+.containerBody{
+    background-color:#E4000F;
+    padding: 10px;
+}
+
+.containerBody p{
+    color: white;
+    font-family: museo sans, sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.featuresSection2{
+    position: relative;
+    top: -320px;
+}
+
+.featuresSection2 h1{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    z-index:1;
+    color: white;
+    width: 1200px;
+    text-align: left;
+}
+
+.featuresSection2 img{
+    width: 100%;
+    position: relative;
+}
+
+.featuresSection2 .containerBody{
+    background-color:black;
+    padding: 10px;
+}
+
+.featuresSection3{
+    position: relative;
+    top: -320px;
+}
+
+.featuresSection3 h1{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    z-index:1;
+    color: white;
+    width: 580px;
+    text-align: right;
+}
+
+.container-fluid{
+    position: relative;
+    top: -300px;
+    padding-bottom: 50px;
+}
+
+.featuresSection4{
+    background-color: black;
+    position: relative;
+    top: -330px;
+    padding: 20px;
+}
+
+.featuresSection4 h1{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    z-index:1;
+    color: white;
+    width: 1200px;
+    text-align: left;
+}
+
+.featuresSection4 img{
+    position: relative;
+    top: 350px;
+    left: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.featuresSection4 .contentBody{
+    background-color: black;
+}
+
+.featuresSection4 p{
+    color: white;
+    font-family: museo sans, sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    text-align: right;
+    float: right;
+    width: 580px;
+    position: relative;
+    top: 350px;
+    right: 120px;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bottomFeatures{
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nintendoLogo{
+    margin-right: auto;
+}
+.searchBar{
+    width: 500px;
+    position: relative;
+    left: -120px;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav-item:first-child{
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+.navButton{
+    background-color: #E4000F;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20pt;
+    position: relative;
+} 
+.navButton:hover{
+    background-color: #A6000B;
+}
+
+.shoppingCart{
+    height: 44px;
+    width: 50px;
+    padding-right: 5px;
+}
+.cartButton{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+.cartButton:hover{
+    color: black;
+}
+
