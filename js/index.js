@@ -8,4 +8,6 @@ $(".preloader").fadeOut("slow");
 }
 setTimeout(fade, 960);
 
-    
+function myFunction() {
+    alert("Yay you bought a Nintendo Switch - OLED Model!");
+  }    
