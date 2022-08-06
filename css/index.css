@@ -2,6 +2,7 @@ h1{
     font-family: museo sans, sans-serif;
     font-weight: 900;
     font-size: 90pt; 
+    line-height: 1.0;
 }
 
 p{
@@ -19,7 +20,7 @@ p{
 .topCTA h1{
     color: white;
     width: 50%;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-top: 50px;
 }
 
@@ -31,9 +32,9 @@ p{
 .topCTA img{
     float: right;
     position: relative;
-    top: -500px;
+    top: -400px;
     padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .topCTA button{
@@ -49,3 +50,29 @@ p{
     position: relative;
     right: -100px;
 } 
+
+.gameRepresentation video{
+    position: relative;
+    top: -310px;
+}
+
+.gameRepresentation .container {
+    position: relative;
+    text-align: left;
+    font-family: museo sans, sans-serif;
+    font-weight: 900;
+    font-size: 90pt; 
+  }
+
+
+.gameRepresentation .container h1{
+    position: absolute;
+    padding-top: 20px;
+    top: -20px;
+    left:-100px;
+    z-index:1;
+    color: white;
+    width: 1200px;
+    text-align: left;
+}
+
