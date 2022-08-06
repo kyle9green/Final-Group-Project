@@ -55,6 +55,9 @@ p{
     position: relative;
     right: -100px;
 } 
+.topCTA button:hover{
+    background-color: #A6000B;
+}
 
 .gameRepresentation video{
     position: relative;
